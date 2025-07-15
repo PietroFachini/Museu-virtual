@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    padding: 1rem;
+    color: azure;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2.7rem;
+}
+
+.botao{
+    padding: 0rem;
+    margin: 0rem;
+    text-align: right;
+}
