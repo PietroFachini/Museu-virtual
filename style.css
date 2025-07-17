@@ -26,20 +26,3 @@ header h1{
     padding: 1rem;
     margin: 2rem;
 }
-
-
-.zoom1{
-    position: absolute;
-    width: 50px; 
-    height: 50px; 
-    border: 2px solid red; 
-    top: 240px; 
-    left: 260px;
-    transition: 1s;
-}
-
-.zoom1:hover{
-    height: 70px;
-    width: 70px;
-    border: 4px solid red;
-}
