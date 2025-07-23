@@ -27,6 +27,11 @@ header h1{
     margin: 2rem;
 }
 
+.txt1{
+    margin: 20px;
+    height: 200px;
+    font-size: xx-large;
+}
 
 .zoom1{
     position: absolute;
@@ -42,4 +47,34 @@ header h1{
     height: 70px;
     width: 70px;
     border: 4px solid red;
+}
+
+.zoom2{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    border: 2px solid red; 
+    top: 150px; 
+    left: 314px;
+    transition: 1s;
+}
+
+.zoom2:hover{
+    height: 70px;
+    width: 70px;
+    border: 4px solid red;
+}
+
+.txt2{
+    align-items: center; 
+    font-size: xx-large;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.topicos{
+    align-items: center; 
+    font-size: xx-large;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
 }
