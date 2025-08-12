@@ -32,12 +32,6 @@ img{
     background-color: black;
 }
 
-.introducao,.primeiro_paragrafo{
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
 p/*neste código estou usando "p" para todos os textos da página, com exceção do título*/{
     margin-top: auto;
     margin-bottom: auto;
@@ -46,32 +40,19 @@ p/*neste código estou usando "p" para todos os textos da página, com exceção
     text-indent: 2rem;
 }
 
-h3/*neste código estou usando "h3" para todos os subritulos de imagens*/{
-    margin-top: 0px;
-    padding-top: 0px;
-    text-align: center;
-    font-size: small;
+.botao{
+    padding: 0rem;
+    margin: 0rem;
+    text-align: right;
 }
 
-.img_jantarCorteComEscravizados{
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+.introducao,.primeiro_paragrafo{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.zoom1{
-    position: absolute;
-    width: 80px; 
-    height: 80px; 
-    border: 2px solid red; 
-    top: 1270px; 
-    left: 730px;
-    transition: 1s;
-}
-
-.zoom1:hover{
-    height: 100px;
-    width: 100px;
-    border: 4px solid red;
+.p1, .p2, .p3, .p4{
+    padding-bottom: 0;
+    padding-top: 0;
 }

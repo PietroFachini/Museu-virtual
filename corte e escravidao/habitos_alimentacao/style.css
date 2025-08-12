@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-color: black;
+}
+
+body{
+  background-color: #f4f0ea;
+}
+
+header h1{
+  padding: 1rem;
+  color: azure;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:2.7rem;
+}
+
+h2{
+  padding: 1rem;
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:3rem;
+}
+
+img{
+    padding: 1rem;
+    margin: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 2.5rem;
+    background-color: black;
+}
+
+p/*neste código estou usando "p" para todos os textos da página, com exceção do título*/{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1rem;
+    font-size: 2rem;
+    text-indent: 2rem;
+}
+
+h3/*neste código estou usando "h3" para todos os subritulos de imagens*/{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: small;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introducao, .primeiro_paragrafo{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem_antesDaChegada{
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.img_frutosDoMar{
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.txt_frutosDoMar_p1{
+  padding-bottom: 0;
+}
+
+.txt_frutosDoMar_p2{
+  padding-top: 0;
+}
+
+.img_talheres{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.texto_depoisDaChegada_p1{
+  padding-bottom: 0;
+}
+
+.texto_depoisDaChegada_p2{
+  padding-top: 0;
+}
+

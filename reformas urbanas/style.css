@@ -16,19 +16,10 @@ header h1{
     font-size:2.7rem;
 }
 
-.data{
-    color: azure;
-    text-align: center;
-    font-size: 1.7rem;
-}
-
 .botao{
+    padding: 0rem;
+    margin: 0rem;
     text-align: right;
-}
-
-.introducao{
-    padding: 1rem;
-    height: 200px;
 }
 
 .quadro1{
@@ -39,10 +30,18 @@ header h1{
 .txt1{
     font-size: xx-large;
     margin: 1rem;
+    justify-content: center;
     text-align: center;
 }
 
-.titulo1{
+.imagens{
+    display: flex; 
+    position: relative; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.titulo_quadro{
     text-align: center;
 }
 
