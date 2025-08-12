@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    padding: 1rem;
+    color: azure;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2.7rem;
+}
+
+.data{
+    color: azure;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.botao{
+    text-align: right;
+}
+
+.introducao{
+    padding: 1rem;
+    height: 200px;
+}
+
+.quadro1{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.txt1{
+    font-size: xx-large;
+    margin: 1rem;
+    text-align: center;
+}
+
+.titulo1{
+    text-align: center;
+}
+
+body{
+  background-color: #f4f0ea;
+}

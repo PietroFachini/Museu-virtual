@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    padding: 1rem;
+    color: azure;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2.7rem;
+}
+
+.botao{
+    padding: 0rem;
+    margin: 0rem;
+    text-align: right;
+}
+
+.quadro1{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.txt1{
+    font-size: xx-large;
+    margin: 1.4rem;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.zoom1{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    border: 2px solid red; 
+    top: 240px; 
+    left: 685px;
+    transition: 1s;
+}
+
+.zoom1:hover{
+    height: 70px;
+    width: 70px;
+    border: 4px solid red;
+}
+
+.zoom2{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    border: 2px solid red; 
+    top: 150px; 
+    left: 740px;
+    transition: 1s;
+}
+
+.zoom2:hover{
+    height: 70px;
+    width: 70px;
+    border: 4px solid red;
+}
+
+.zoom3{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    border: 2px solid red; 
+    top: 265px; 
+    left: 265px;
+    transition: 1s;
+}
+
+.zoom3:hover{
+    height: 118px;
+    width: 118px;
+    border: 4px solid red;
+}
+
+.zoom4{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    border: 2px solid red; 
+    top: 55px; 
+    left: 325px;
+    transition: 1s;
+}
+
+.zoom4:hover{
+    height: 200px;
+    width: 335px;
+    border: 4px solid red;
+}
+
+.zoom5{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    border: 2px solid red; 
+    top: 40px; 
+    left: 765px;
+    transition: 1s;
+}
+
+.zoom5:hover{
+    height: 175px;
+    width: 245px;
+    border: 4px solid red;
+}
+
+.zoom6{
+    position: absolute;
+    width: 70px; 
+    height: 70px; 
+    border: 2px solid red; 
+    top: 30px; 
+    left: 1015px;
+    transition: 1s;
+}
+
+.zoom6:hover{
+    height: 200px;
+    width: 320px;
+    border: 4px solid red;
+}
+
+.zoom7{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    border: 2px solid red; 
+    top: 305px; 
+    left: 1105px;
+    transition: 1s;
+}
+
+.zoom7:hover{
+    height: 70px;
+    width: 70px;
+    border: 4px solid red;
+}
+
+.zoom8{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    border: 2px solid red; 
+    top: 50px; 
+    left: 779px;
+    transition: 1s;
+}
+
+.zoom8:hover{
+    height: 60px;
+    width: 60px;
+    border: 4px solid red;
+}
+
+.zoom9{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    border: 2px solid red; 
+    top: 180px; 
+    left: 915px;
+    transition: 1s;
+}
+
+.zoom9:hover{
+    height: 110px;
+    width: 65px;
+    border: 4px solid red;
+}
+
+
+.txt2{
+    align-items: center; 
+    font-size: xx-large;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.topicos{
+    align-items: center; 
+    font-size: xx-large;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+.imagens{
+    display: flex; 
+    position: relative; 
+    align-items: center; 
+    justify-content: center;
+}
+
+body{
+  background-color: #f4f0ea;
+}

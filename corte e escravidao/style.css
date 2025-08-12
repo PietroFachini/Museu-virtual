@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+body{
+  background-color: #f4f0ea;
+}
+
+header h1{
+    padding: 1rem;
+    color: azure;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2.7rem;
+}
+
+img{
+    padding: 1rem;
+    margin: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 2.5rem;
+    background-color: black;
+}
+
+.introducao,.primeiro_paragrafo{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+p/*neste código estou usando "p" para todos os textos da página, com exceção do título*/{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1rem;
+    font-size: 2rem;
+    text-indent: 2rem;
+}
+
+h3/*neste código estou usando "h3" para todos os subritulos de imagens*/{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: small;
+}
+
+.img_jantarCorteComEscravizados{
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.zoom1{
+    position: absolute;
+    width: 80px; 
+    height: 80px; 
+    border: 2px solid red; 
+    top: 1270px; 
+    left: 730px;
+    transition: 1s;
+}
+
+.zoom1:hover{
+    height: 100px;
+    width: 100px;
+    border: 4px solid red;
+}
