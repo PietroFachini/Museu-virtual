@@ -27,9 +27,7 @@ img{
     margin-left: auto;
     display: block;
     width: 50%;
-    border: 2px solid black;
-    border-radius: 2.5rem;
-    background-color: black;
+    
 }
 
 .introducao,.primeiro_paragrafo{
@@ -65,8 +63,8 @@ h3/*neste código estou usando "h3" para todos os subritulos de imagens*/{
     width: 80px; 
     height: 80px; 
     border: 2px solid red; 
-    top: 1270px; 
-    left: 730px;
+    top: 86rem; 
+    left: 56rem;
     transition: 1s;
 }
 
